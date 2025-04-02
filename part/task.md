@@ -1,3 +1,10 @@
+UX
+```html
+<task bol2 bbg>
+
+</task>
+```
+
 UI
 ```html
 <style>
@@ -13,11 +20,4 @@ z-index: 2;
 padding:2.5px;
 }
 </style>
-```
-
-UX
-```html
-<task bol2 bbg>
-
-</task>
 ```
