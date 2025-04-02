@@ -1,3 +1,10 @@
+UX
+```html
+<cont>
+Hi
+</cont>
+```
+
 UI
 ```html
 <style>
@@ -10,11 +17,4 @@ height: 90svh;
 width: auto;
 }
 </style>
-```
-
-UX
-```html
-<cont>
-Hi
-</cont>
 ```
