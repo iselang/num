@@ -6,7 +6,8 @@
 
 <link rel='preload' as="script" href='https://iselang.github.io/num.js'>
 
-<script src="https://iselang.github.io/num.js"></script>
+<script src="https://iselang.github.io/num.js"> </script>
+
 <script>
 app('Name of my NUM');
 fav(3);
