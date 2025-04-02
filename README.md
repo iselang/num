@@ -53,7 +53,7 @@ app('Name of my NUM');
 [say]() 
 - This one is deleted since it no longer have use.
 
-[Card](part/Card.md)
+[Card](part/card.md)
 - A box for your info/ Card
 
 [Preview](part/preview.md)
@@ -62,7 +62,7 @@ app('Name of my NUM');
 [Container / Box / Hero](part/cont.md)
 - A Container its where you put stuff some call this a box or hero.
 
-[Slide / Courosel](part/cont.md)
+[Slide / Courosel](part/slide.md)
 - A Slide like courosel 
 
 
