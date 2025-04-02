@@ -1,3 +1,11 @@
+UX
+```html
+<previews>
+<preview bol2>preview 1</preview>
+<preview bol2>preview 2</preview>
+<preview bol2>preview 3</preview>
+</previews>
+```
 UI
 ```html
 <style>
@@ -22,12 +30,4 @@ scroll-snap-align: center;
 }
 
 </style>
-```
-UX
-```html
-<previews>
-<preview bol2>preview 1</preview>
-<preview bol2>preview 2</preview>
-<preview bol2>preview 3</preview>
-</previews>
 ```
