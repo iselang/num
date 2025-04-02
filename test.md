@@ -9,6 +9,6 @@
 <script src="https://iselang.github.io/num.js"> </script>
 
 <script>
-app('Name of my NUM');
-fav(3);
+app('Test');
+fav('https://ise.web.app/icon/2.png');
 </script>
