@@ -20,7 +20,8 @@ Num is a powerful and lightweight web kit designed to complement the ISE languag
 
 ## Installation
 
-To install Num, use the following template as your base HTML:
+To install Num, use the following template as your base.
+Get [Base UI](part/base.md) here.
 
 ```html
 <!DOCTYPE html>
