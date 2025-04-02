@@ -1,3 +1,12 @@
+UX
+```html
+<slides bol2>
+<slide>Slide 1</slide>
+<slide>Slide 2</slide>
+<slide>Slide 3</slide>
+</slides>
+```
+
 UI
 ```html
 <style>
@@ -21,13 +30,4 @@ text-align: center;
 scroll-snap-align: start; 
 }
 </style>
-```
-
-UX
-```html
-<slides bol2>
-<slide>Slide 1</slide>
-<slide>Slide 2</slide>
-<slide>Slide 3</slide>
-</slides>
 ```
