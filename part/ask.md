@@ -1,3 +1,9 @@
+
+UX
+```html
+<ask bol2 say="hey"></ask>
+```
+
 UI
 ```html
 <style>
@@ -23,9 +29,4 @@ color: var(--b2);
 }
 </style>
 
-```
-
-UX
-```html
-<ask bol2 say="hey"></ask>
 ```
