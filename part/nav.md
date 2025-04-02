@@ -1,3 +1,9 @@
+UX
+```html
+<nav bol2 bbg>
+</nav>
+```
+
 UI
 ```html
 <style>
@@ -13,10 +19,4 @@ position: sticky;
 z-index: 2;
 }
 </style>
-```
-
-UX
-```html
-<nav bol2 bbg>
-</nav>
 ```
