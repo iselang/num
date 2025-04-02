@@ -27,11 +27,11 @@ Get [Base UI](part/base.md) here.
 <!DOCTYPE html>
 <meta ref="convert:num">
 <head>
-<link rel='preload' as="script" href='https://iselang.github.io/load.js'>
+<link rel='preload' as="script" href='https://iselang.github.io/num.js'>
 </head>
 <body>
 </body>
-<script src="https://iselang.github.io/load.js"></script>
+<script src="https://iselang.github.io/num.js"></script>
 <script>
 app('Name of my NUM');
 </script>
