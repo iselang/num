@@ -6,7 +6,7 @@ display:flex;
 place-content: left;
 display: block;
 min-width: 10px;
-max-width: 48em;
+max-width: 100%;
 padding: 0.08in 0.15in;
 border-radius: var(--bdr);
 height: auto;
