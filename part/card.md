@@ -1,3 +1,16 @@
+
+UX
+```html
+<cards>
+<card bol2>Card 1</card>
+<card bol2>Card 2</card>
+<card bol2>Card 3</card>
+<card bol2>Card 4</card>
+<card bol2>Card 5</card>
+<card bol2>Card 6</card>
+</cards>
+```
+
 UI
 ```html
 <style>
@@ -30,16 +43,4 @@ grid-template-columns: repeat(4, 1fr);
 }
 }
 </style>
-```
-
-UX
-```html
-<cards>
-<card bol2>Card 1</card>
-<card bol2>Card 2</card>
-<card bol2>Card 3</card>
-<card bol2>Card 4</card>
-<card bol2>Card 5</card>
-<card bol2>Card 6</card>
-</cards>
 ```
