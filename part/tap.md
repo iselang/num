@@ -1,3 +1,8 @@
+UX
+```html
+<tap bol2>Tap Me</tap>
+```
+
 UI
 ```html
 <style>
@@ -18,9 +23,4 @@ text-align: center;
 }
 </style>
 
-```
-
-UX
-```html
-<tap bol2>Clieck</tap>
 ```
