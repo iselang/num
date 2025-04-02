@@ -154,6 +154,6 @@ Num is released under the MIT License. See `LICENSE` for more details.
 
 ## Contact & Support
 
-For issues and inquiries, reach out via [GitHub Issues](https://github.com/iselang/num/).
+For issues and inquiries, reach out via [GitHub Issues](https://github.com/iselang/num/issues).
 
 Happy Coding with Num!
