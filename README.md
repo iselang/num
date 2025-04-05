@@ -84,6 +84,7 @@ Num is a powerful and lightweight web kit designed to complement the ISE languag
 -   **`move(etl, mot)`**: Moves one element into another.
 -   **`move.up(selector)`**: Moves an element up in the DOM.
 -   **`move.down(selector)`**: Moves an element down in the DOM.
+
 -   **`element.set`**: Sets the content of an element, handling different input types.
 -   **`element.get`**: Gets the content of an element.
 -   **`element.put`**: Appends elements or text to an element.
@@ -118,8 +119,10 @@ Num is a powerful and lightweight web kit designed to complement the ISE languag
 -   **`uuid()`**: Generates a UUID.
 -   **`ran(max)`**: Generates a random integer.
 -   **`pop.up(url)`**: Opens a URL in a new window.
--   **`bit.set(address, value)`**: Sets a value in local storage like a memory using hexadecimal encoding.
--   **`bit.get(address)`**: Gets a value from local storage like a memory using hexadecimal decoding.
+
+-   **`bit.set(address, value)`**: Sets a value in memory then return it in localstorage.
+-   **`bit.get(address)`**: Gets a value from memory and compares the data from localstorage.
+
 -   **`net.get(url)`**: Makes a GET request.
 -   **`net.post(url, data)`**: Makes a POST request.
 -   **`on.feed()`**: Opens a screen feed.
