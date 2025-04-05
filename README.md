@@ -11,8 +11,6 @@ To install Num, use the following template as your base.
 <meta ref="convert:num">
 <head>
 <link rel='preload' as="script" href='https://iselang.github.io/num.js'>
-<link rel='preload' as="style" href='https://iselang.github.io/num.css'>
-<link rel='stylesheet' href='https://iselang.github.io/num.css'>
 </head>
 <body>
 
@@ -41,7 +39,8 @@ Num is a powerful and lightweight web kit designed to complement the ISE languag
 -   **Data Storage and Retrieval** - Local storage manipulation with hexadecimal encoding.
 -   **Network Requests** - Simplified GET and POST requests.
 -   **File Handling** - Upload and save data with various file types.
-
+-   **Auto UI** - Will generate a cdn / add a cdn for the respective ui element.
+  
 ## Core Functions
 
 
