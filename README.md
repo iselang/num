@@ -153,6 +153,9 @@ This is a CDN-Based Language.
 -   **`func()`**: Executes all the ise functions.
 -   **`num`**: empty function.
 
+### Compilation / Making
+-   **`make.PLATFORM`**: compilation to what platform you like `android`, `linux` and `windows`.
+
 ## Usage
 
 Num provides a simple API to integrate with your web projects. Use the provided functions and components to build interactive and efficient web applications.
