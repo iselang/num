@@ -121,6 +121,23 @@ This is a CDN-Based Language.
 - **`bit.up(name, data)`**: Stores or updates data in IndexedDB under the specified `name`. It also broadcasts the updated data to other tabs/windows using `BroadcastChannel`.
 - **`bit.push(name, data)`**: Appends new data to the existing data stored in IndexedDB under the specified `name`. If no existing data is found, it creates a new array with the new data. It also broadcasts the updated data to other tabs/windows.
 - **`bit.get(name)`**: Retrieves data from IndexedDB by the specified `name`. It returns the data from the IndexedDB or `null` if the data does not exist. If the data is a stringified JSON, it parses it before returning.
+Sample
+
+```js
+
+await bit.init();
+
+const data = { name: "John Doe", id: 123 };
+
+await bit.up("user", data);
+
+const newData = { name: "Jane Doe", id: 456 };
+await bit.push("user", newData);
+
+let userData = await bit.get("user");
+console.log(userData); 
+
+```
 
 ### Utility Functions
 
