@@ -194,7 +194,7 @@ Compiling a Portable App for linux this easy.
 
 ## Usage
 
-Num provides a simple API to integrate with your web projects. Use the provided functions and components to build interactive and efficient web applications.
+Num provides a "simple" API to integrate with your web projects. Use the provided functions and components to build interactive and efficient software.
 
 ## License
 
