@@ -115,15 +115,19 @@ This is a CDN-Based Language.
 -   **`app.url(canonicalUrl)`**: Sets the canonical URL.
 -   **`app.info(description)`**: Sets the meta description.
 
+### Mya db integration
+
+- **`bit.init()`**: Initializes IndexedDB, setting up the database and creating a `BroadcastChannel` for communication between tabs/windows.
+- **`bit.up(name, data)`**: Stores or updates data in IndexedDB under the specified `name`. It also broadcasts the updated data to other tabs/windows using `BroadcastChannel`.
+- **`bit.push(name, data)`**: Appends new data to the existing data stored in IndexedDB under the specified `name`. If no existing data is found, it creates a new array with the new data. It also broadcasts the updated data to other tabs/windows.
+- **`bit.get(name)`**: Retrieves data from IndexedDB by the specified `name`. It returns the data from the IndexedDB or `null` if the data does not exist. If the data is a stringified JSON, it parses it before returning.
+
 ### Utility Functions
 
 -   **`copy(text)`**: Copies text to the clipboard.
 -   **`uuid()`**: Generates a UUID.
 -   **`ran(max)`**: Generates a random integer.
 -   **`pop.up(url)`**: Opens a URL in a new window.
-
--   **`bit.set(address, value)`**: Sets a value in memory then return it in localstorage.
--   **`bit.get(address)`**: Gets a value from memory and compares the data from localstorage.
 
 -   **`net.get(url)`**: Makes a GET request.
 -   **`net.post(url, data)`**: Makes a POST request.
