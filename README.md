@@ -109,11 +109,22 @@ This is a CDN-Based Language.
 
 -   **`app(title)`**: Sets the document title.
 -   **`app.cover(imageUrl)`**: Sets the cover image meta tags.
--   **`app.icon(iconUrl)`**: Sets the favicon.
--   **`fav(iconUrl)`**: Alias for `app.icon`.
+-   **`fav(iconUrl)`**:  Sets the favicon.
 -   **`app.key(keywords)`**: Sets the meta keywords.
 -   **`app.url(canonicalUrl)`**: Sets the canonical URL.
 -   **`app.info(description)`**: Sets the meta description.
+
+Sample
+```js
+app('My num app');
+app.cover(2);
+
+fav(24)
+app.key('Apple Falling, Sus, Code');
+app.url('localhost://'); // WHY proud hosting offline? if you can use github?
+app.info('yeah my num app's info')
+```
+
 
 ### Mya db integration
 
@@ -121,10 +132,10 @@ This is a CDN-Based Language.
 - **`bit.up(name, data)`**: Stores or updates data in IndexedDB under the specified `name`. It also broadcasts the updated data to other tabs/windows using `BroadcastChannel`.
 - **`bit.push(name, data)`**: Appends new data to the existing data stored in IndexedDB under the specified `name`. If no existing data is found, it creates a new array with the new data. It also broadcasts the updated data to other tabs/windows.
 - **`bit.get(name)`**: Retrieves data from IndexedDB by the specified `name`. It returns the data from the IndexedDB or `null` if the data does not exist. If the data is a stringified JSON, it parses it before returning.
+
 Sample
 
 ```js
-
 await bit.init();
 
 const data = { name: "John Doe", id: 123 };
@@ -136,7 +147,6 @@ await bit.push("user", newData);
 
 let userData = await bit.get("user");
 console.log(userData); 
-
 ```
 
 ### Utility Functions
