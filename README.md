@@ -181,11 +181,16 @@ console.log(userData);
 -   **`num.upload()`**: Handles file uploads.
 -   **`num.save()`**: Saves element content as a file.
 -   **`num.origin(url)`**: Sets the canonical URL.
--   **`func()`**: Executes all the ise functions.
--   **`num`**: empty function.
+-   **`func()`**: Executes all the setup functions.
 
 ### Compilation / Making
 -   **`make.PLATFORM`**: compilation to what platform you like `android`, `linux` and `windows`.
+
+Sample
+```js
+make.linux();
+```
+Compiling a Portable App for linux this easy.
 
 ## Usage
 
