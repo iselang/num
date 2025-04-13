@@ -3,7 +3,7 @@
 
 # Num. A Code Kit like ISE
 
-## Installation
+## Using it / Installation 
 
 To install Num, use the following template as your base.
 ```html
