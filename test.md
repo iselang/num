@@ -11,4 +11,5 @@
 <script>
 app('Test');
 fav('https://ise.web.app/icon/2.png');
+path("../test")
 </script>
