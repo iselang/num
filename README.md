@@ -22,6 +22,8 @@ To install Num, use the following template as your base.
 
 <script src="https://iselang.github.io/num.js"></script>
 <script>
+load("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css")
+
 app('Name of my NUM');
 </script>
 ```
