@@ -37,16 +37,39 @@ app('Name of my NUM');
 
 Modules you can load.
 
+ - Num UI* (RECOMMENDED)
 ```js
-load('num/sys/harware.js');
-load('num/sys/make.js');
-load('num/sys/md.js');
-load('num/sys/move.js');
-load('num/sys/net.js');
-load('num/sys/oth.js');
-load('num/sys/swipe.js');
 load('ui.js');
 ```
+ - Hardware
+```js
+load('num/sys/hardware.js');
+```
+ - Compiling (Make)
+```js
+load('num/sys/make.js');
+```
+ - Md
+```js
+load('num/sys/md.js');
+```
+ - Move (List)
+```js
+load('num/sys/move.js');
+```
+ - Network (Connect to wifi lol)
+```js
+load('num/sys/net.js');
+```
+ - Other
+```js
+load('num/sys/oth.js');
+```
+ - Swipe events
+```js
+load('num/sys/swipe.js');
+```
+
 -   **Lightweight & Fast** – Optimized for speed and performance.
 -   **ISE Inspo** – Works seamlessly like ISE language.
 -   **Modular Design** – Flexible components for a variety of web applications.
