@@ -39,7 +39,7 @@ Modules you can load.
 
  - Num UI* (RECOMMENDED)
 ```js
-load('ui.js');
+load('ux.js'); load('ui.css');
 ```
  - Hardware
 ```js
