@@ -3,9 +3,14 @@
 
 [` NUM JS `](https://github.com/iselang/iselang.github.io/blob/main/num.js) [` UI `](https://github.com/iselang/iselang.github.io/tree/main/ui)
 
-
-
 # Num. A Code Kit like ISE
+
+## Introduction
+
+Num is a powerful and lightweight code kit designed to complement like the ISE language. It provides developers with essential tools and components for building efficient, scalable, and high-performance web applications.
+
+This is a CDN-Based Language.
+
 
 ## Using it / Installation 
 
@@ -28,14 +33,20 @@ app('Name of my NUM');
 </script>
 ```
 
-## Introduction
-
-Num is a powerful and lightweight code kit designed to complement like the ISE language. It provides developers with essential tools and components for building efficient, scalable, and high-performance web applications.
-
-This is a CDN-Based Language.
-
 ## Features
 
+Modules you can load.
+
+```js
+load('num/sys/harware.js');
+load('num/sys/make.js');
+load('num/sys/md.js');
+load('num/sys/move.js');
+load('num/sys/net.js');
+load('num/sys/oth.js');
+load('num/sys/swipe.js');
+load('ui.js');
+```
 -   **Lightweight & Fast** – Optimized for speed and performance.
 -   **ISE Inspo** – Works seamlessly like ISE language.
 -   **Modular Design** – Flexible components for a variety of web applications.
