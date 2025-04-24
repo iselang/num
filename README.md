@@ -11,6 +11,7 @@ Num is a powerful and lightweight code kit designed to complement like the ISE l
 
 This is a CDN-Based Language.
 
+[Benchmark it.](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fiselang.github.io%2Ftest.html)
 
 ## Using it / Installation 
 
