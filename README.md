@@ -226,6 +226,11 @@ console.log(userData);
 -   **`num.origin(url)`**: Sets the canonical URL.
 -   **`func()`**: Executes all the setup functions.
 
+-   **`make.file(Name, Type, Data)`**: Used to make you a file, and saves to your device.
+```js
+make.file(pick('#name').get,'text', pick('#data').get);
+```
+
 ### Compilation / Making
 -   **`make.PLATFORM`**: compilation to what platform you like `android`, `linux` and `windows`.
 
