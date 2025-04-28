@@ -9,6 +9,8 @@
 
 Num is a powerful and lightweight code kit designed to complement like the ISE language. It provides developers with essential tools and components for building efficient, scalable, and high-performance web applications.
 
+A Programming language on fly tha is easy and user friendly. Speed, UX's Good and Dynamic.
+
 This is half open source.
 
 This is a CDN-Based Language.
