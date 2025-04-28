@@ -3,7 +3,7 @@
 
 [` NUM JS `](https://github.com/iselang/iselang.github.io/blob/main/num.js) [` UI `](https://github.com/iselang/iselang.github.io/tree/main/ui) [` Samples `](sample.md)
 
-# Num. A Code Kit like ISE
+# Num. A Code Kit by ISE Team.
 
 ## Introduction
 
