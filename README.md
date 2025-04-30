@@ -1,8 +1,7 @@
 <link rel="preload" as="style" href="https://actwu.github.io/md2.css">
 <link rel="stylesheet" href="https://actwu.github.io/md2.css">
 
-[Num](https://iselang.github.io/num)
-
+# [Num](https://iselang.github.io/num)
 [` NUM JS `](https://github.com/iselang/num/tree/main/part) [` Part `](https://github.com/iselang/num/tree/main/part) [` Samples `](sample.md)
 [` Github `](https://github.com/iselang/num/)
 
