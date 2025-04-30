@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="https://actwu.github.io/md.css">
 
 [` NUM JS `](https://github.com/iselang/iselang.github.io/blob/main/num.js) [` UI `](https://github.com/iselang/iselang.github.io/tree/main/ui) [` Samples `](sample.md)
+[` Github `](https://github.com/iselang/num/)
 
 # Num. A Code Kit by ISE Team.
 
