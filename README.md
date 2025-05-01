@@ -97,27 +97,74 @@ load('num/sys/swipe.js');
 ## Part (Components)
 
 [Nav](part/nav.md)
+```html
+<nav bol2 bbg>
+</nav>
+```
 -   A Top navigation
 
 [Task](part/task.md)
+```html
+<task bol2 bbg>
+
+</task>
+```
 -   A Task Bar / Bottom navigation
 
 [Ask](part/ask.md)
+```html
+<ask say="Input">
+</ask>
+```
 -   a input / textarea version of Num.
 
 [Tap](part/tap.md)
+```html
+<tap>
+<say>Button</say>
+</tap>
+```
 -   a button version of Num.
 
 [Card](part/card.md)
+```html
+<cards>
+<card bol2>Card 1</card>
+<card bol2>Card 2</card>
+<card bol2>Card 3</card>
+<card bol2>Card 4</card>
+<card bol2>Card 5</card>
+<card bol2>Card 6</card>
+</cards>
+```
 -   A box for your info/ Card
 
 [Preview](part/preview.md)
+```html
+<previews>
+<preview bol2>preview 1</preview>
+<preview bol2>preview 2</preview>
+<preview bol2>preview 3</preview>
+</previews>
+```
 -   A Preview for like Card but scrollable
 
 [Container / Box / Hero](part/cont.md)
+```html
+<cont>
+<say big>Hero!</say>
+</cont>
+```
 -   A Container its where you put stuff some call this a box or hero.
 
 [Slide / Courosel](part/slide.md)
+```html
+<slides bol2>
+<slide>Slide 1</slide>
+<slide>Slide 2</slide>
+<slide>Slide 3</slide>
+</slides>
+```
 -   A Slide like courosel
 
 
