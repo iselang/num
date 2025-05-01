@@ -1,7 +1,7 @@
 <link rel="preload" as="style" href="https://actwu.github.io/md2.css">
 <link rel="stylesheet" href="https://actwu.github.io/md2.css">
 
-[` NUM JS `](https://github.com/iselang/num/tree/main/part) [` Part `](https://github.com/iselang/num/tree/main/part) [` Samples `](sample.md)
+[` NUM JS `](https://github.com/iselang/iselang.github.io/blob/main/num.js) [` Part `](https://github.com/iselang/num/tree/main/part) [` Samples `](sample.md)
 [` Github `](https://github.com/iselang/num/)
 
 [` Icon `](https://fontawesome.com/search?o=r&ic=free&s=solid)
