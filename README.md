@@ -4,6 +4,9 @@
 [` NUM JS `](https://github.com/iselang/num/tree/main/part) [` Part `](https://github.com/iselang/num/tree/main/part) [` Samples `](sample.md)
 [` Github `](https://github.com/iselang/num/)
 
+[` Icon `](https://fontawesome.com/search?o=r&ic=free&s=solid)
+
+
 # [Num](https://iselang.github.io/num)
 
 # Num. A Code Kit by ISE Team.
