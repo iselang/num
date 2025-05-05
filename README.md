@@ -30,13 +30,13 @@ To install Num, use the following template as your base.
 <!DOCTYPE html>
 <meta ref="convert:num">
 <head>
-<link rel='preload' as="script" href='https://iselang.github.io/num.js'>
+<link rel='preload' as="script" href='https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js'>
 </head>
 <body>
 
 </body>
 
-<script src="https://iselang.github.io/num.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js"></script>
 <script>
 load("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css")
 load('num/ux.js');load('num/ui.css');
