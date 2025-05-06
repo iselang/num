@@ -1,0 +1,243 @@
+NUM JS DOCUMENTATION
+
+Introduction
+Num is a powerful and lightweight code kit designed to complement like the ISE language. It provides developers with essential tools and components for building efficient, scalable, and high-performance web applications.
+A Programming language on fly that is easy and user friendly. Speed, UX’s Good and Dynamic.
+This is half open source. Syntax is similar to HTML but this is by design. This is NUM tho.
+This is a CDN-Based Language.
+
+Installation
+<!DOCTYPE html>
+<meta ref="convert:num">
+<head>
+<link rel='preload' as="script" href='https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js'>
+</head>
+<body>
+</body>
+
+<script src="https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js"></script>
+<script>
+load("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css")
+load('num/ux.js');load('num/ui.css');
+app('Name of my NUM');
+</script>
+
+Core Features
+- Modular design with optional components
+- Extended DOM manipulation
+- Media handling (camera, microphone)
+- Gesture and keyboard controls
+- Data storage with IndexedDB
+- Network request handling
+- File operations
+
+MODULES
+Num UI* (RECOMMENDED)
+load('num/ux.js'); load('num/ui.css');
+
+Hardware
+load('num/sys/hardware.js');
+
+Compiling (Make)
+load('num/sys/make.js');
+
+Md
+load('num/sys/md.js');
+
+Move (List)
+load('num/sys/move.js');
+
+Network (Connect to wifi lol)
+load('num/sys/net.js');
+
+Other
+load('num/sys/oth.js');
+
+Swipe events
+load('num/sys/swipe.js');
+
+
+UI COMPONENTS/NUM ELEMENTS
+NUM JS LAYOUT COMPONENTS DOCUMENTATION
+
+CORE LAYOUT ELEMENTS
+
+1. <say> TEXT ELEMENT
+   - The primary text display component
+   - Supports size modifiers:
+     <say>Normal text</say>
+     <say big>Large text</say>
+     <say small>Small text</say>
+   - Automatically inherits parent container styling
+   - Works inside all other components
+
+2. NAVIGATION COMPONENTS
+
+   <nav bol2 bbg>
+     <!-- Navigation content -->
+   </nav>
+   - Creates top navigation bar
+   - Attributes:
+     * bol2 - adds border
+     * bbg - adds background
+   - Typically contains <tap> elements as menu items
+
+   <task bol2 bbg>
+     <!-- Task items -->
+   </task>
+   - Creates bottom task bar
+   - Ideal for mobile interfaces
+   - Commonly holds action buttons
+
+3. INPUT COMPONENTS
+
+   <ask say="Placeholder">
+   </ask>
+   - Flexible input field
+   - Converts to textarea for multi-line input
+   - 'say' attribute sets placeholder text
+
+   <tap>
+     <say>Button Text</say>
+   </tap>
+   - Interactive button element
+   - Wrap text in <say> for proper styling
+   - Add 'go="url"' attribute for links
+
+4. CONTENT CONTAINERS
+ 
+   <cards>
+     <card bol2>Content</card>
+     <card bol2>Content</card>
+   </cards>
+   - Responsive grid container
+   - Cards auto-arrange based on screen size
+   - Use 'bol2' for bordered cards
+
+   <previews>
+     <preview bol2>Item 1</preview>
+     <preview bol2>Item 2</preview>
+   </previews>
+   - Horizontal scroll container
+   - Ideal for galleries or item lists
+   - Previews remain equal height
+
+   <cont>
+     <say big>Hero Content</say>
+   </cont>
+   - Versatile container box
+   - Use for hero sections or content blocks
+   - Automatically centers content
+
+5. DYNAMIC COMPONENTS
+   <slides bol2>
+     <slide>Page 1</slide>
+     <slide>Page 2</slide>
+   </slides>
+   - Touch-enabled carousel
+   - Supports auto-rotation
+   - Add navigation with <tap> elements
+
+LAYOUT GUIDELINES
+1. Basic Page Structure:
+   <nav>...</nav>
+   <cont>
+     <say big>Main Content</say>
+     <cards>...</cards>
+   </cont>
+   <task>...</task>
+
+2. Recommended Patterns:
+   - Use <cards> for column grids of items
+   - Use <previews> for row scrolling
+   - Combine <cont> with <say> for text sections
+   - Wrap all interactive text in <say>
+
+3. Style Control:
+   - Add 'bol2' for borders
+   - Add 'bbg' for backgrounds
+   - Use <say big/small> for text sizing
+
+
+DOM MANIPULATION
+
+pick(selector) - Select single element
+pick.all(selector, callback) - Select multiple elements
+make(elementTag) - Create new element
+load(link) - Load JS/CSS dynamically
+move(etl, mot) - Move elements
+element.set - Set element content
+element.get - Get element content
+element.put - Append content
+element.hide/show/toggle - Visibility control
+element.tap - Add click handler
+element.do - Execute functions with delay/loop
+
+APP CONFIGURATION
+
+app(title) - Set document title
+app.cover(imageUrl) - Set cover image
+fav(iconUrl) - Set favicon
+app.key(keywords) - Set meta keywords
+app.url(canonicalUrl) - Set canonical URL
+app.info(description) - Set meta description
+
+DATA STORAGE (IndexedDB)
+
+bit.init() - Initialize database
+bit.up(name, data) - Store/update data
+bit.push(name, data) - Append data
+bit.get(name) - Retrieve data
+
+UTILITY FUNCTIONS
+
+copy(text) - Copy to clipboard
+uuid() - Generate UUID
+ran(max) - Generate random number
+pop.up(url) - Open new window
+
+NETWORK FUNCTIONS
+
+net.get(url) - GET request
+net.post(url, data) - POST request
+
+MEDIA FUNCTIONS
+
+on.feed() - Start screen feed
+on.cam() - Start camera feed
+on.mic() - Start microphone feed
+rec.start(target) - Start recording
+snap(target) - Take snapshot
+
+GESTURE CONTROLS
+
+swipe.left(selector, callback)
+swipe.right(selector, callback)
+swipe.up(selector, callback)
+swipe.down(selector, callback)
+press(keyCombo, callback) - Key press handler
+
+FILE OPERATIONS
+
+make.file(Name, Type, Data) - Create and save file
+num.upload() - Handle file uploads
+num.save() - Save element content as file
+
+COMPILATION
+
+make.linux() - Compile for Linux
+make.android() - Compile for Android
+make.windows() - Compile for Windows
+
+SETUP FUNCTIONS
+
+num.accessibility() - Enhance accessibility
+num.dom() - Manage DOM structure
+num.edit() - Enable content editing
+num.link() - Link input elements
+num.tap() - Add click handlers
+num.js() - Execute JS code
+func() - Run all setup functions
+
+License: MIT
+GitHub: https://github.com/iselang/iselang.github.io
