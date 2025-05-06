@@ -7,7 +7,7 @@
 [` Icon `](https://fontawesome.com/search?o=r&ic=free&s=solid)
 
 
-# [Num](https://iselang.github.io/num)
+# [Num](https://iselang.github.io/num)  [` Readme Text `](rm.txt)
 
 # Num. A Code Kit by ISE Team.
 
