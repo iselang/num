@@ -431,7 +431,7 @@ Num provides a "simple" API to integrate with your web projects. Use the provide
 
 Ise / NUM
 ## Used by/in (projects)
-`Actwu`, `NOW SIGN protoype`, `HanBy`, `selhue.com`, `CDNM`, `sellit by selhue`, `dropBy`, `INSB`, `PallTe`, `Codeen`, `Far`, `LycheLi`, `Aftei`, `FloxUse` and more..
+`Actwu`, `NOW SIGN ASL protoype`, `HanBy`, `selhue.com`, `CDNM`, `covNav`, `sellit by selhue`, `dropBy`, `INSB`, `PallTe`, `Codeen`, `Far`, `LycheLi`, `Aftei`, `FloxUse`, `linktr.ee` and more..
 
 ## License
 
