@@ -13,9 +13,8 @@
 
 ## Introduction
 
-Num is a powerful and lightweight code kit designed to complement like the ISE language. It provides developers with essential tools and components for building efficient, scalable, and high-performance web applications.
+Num?, It's programming language that runs on the fly.. like no installation needed. It's fast, user-friendly, and built with dynamic UX in mind.. it is a powerful and lightweight code kit designed to complement like the ISE language. It provides developers with essential tools and components for building efficient, scalable, and high-performance web applications.
 
-It's programming language that runs on the fly—no installation needed. It's fast, user-friendly, and built with dynamic UX in mind.
 
 ## NOTE
 - This is half open source.
@@ -111,7 +110,7 @@ Modules you can load.
 ```js
 load('num/ux.js'); load('num/ui.css');
 ```
- - Hardware
+ - Hardware (Like Camera, Mic, Screen Control, Keyboard, For now.. Soon is Servo.. Which is good for arduino, and more)
 ```js
 load('num/sys/hardware.js');
 ```
