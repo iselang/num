@@ -21,6 +21,30 @@ It's programming language that runs on the fly—no installation needed. It's fa
 - This is half open source.
 - This is a CDN-Based Language.
 
+
+[Benchmark it.](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fiselang.github.io%2Ftest.html)
+
+## Using it / Installation 
+
+To install Num, use the following template as your base.
+```html
+<!DOCTYPE html>
+<meta ref="convert:num">
+<head>
+<link rel='preload' as="script" href='https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js'>
+</head>
+<body>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js"></script>
+<script>
+load("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css")
+load('num/ux.js');load('num/ui.css');
+app('Name of my NUM');
+</script>
+```
+
 ## How it works
 
 1. JavaScript’s Three-Phase System
@@ -73,28 +97,6 @@ For native applications, NUM lets you compile your code to run natively, offerin
 
 It results to being lightweight, fast, and optimized for both web and native environments, delivering smooth and responsive applications.
 
-[Benchmark it.](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fiselang.github.io%2Ftest.html)
-
-## Using it / Installation 
-
-To install Num, use the following template as your base.
-```html
-<!DOCTYPE html>
-<meta ref="convert:num">
-<head>
-<link rel='preload' as="script" href='https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js'>
-</head>
-<body>
-
-</body>
-
-<script src="https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js"></script>
-<script>
-load("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css")
-load('num/ux.js');load('num/ui.css');
-app('Name of my NUM');
-</script>
-```
 
 ## Features
 
