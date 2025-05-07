@@ -235,6 +235,11 @@ load('num/sys/swipe.js');
 -   **`pick(selector)`**: Selects an element using a CSS selector.
 -   **`pick.all(selector, callback)`**: Selects all elements matching a CSS selector and optionally applies a callback function to each.
 -   **`make(elementTag)`**: Creates a new HTML element.
+```html
+mySay=make("say");
+mySay.set="Hellow";
+pick("MyTarget").put=mySay;
+```
 -   **`load(link)`**: Dynamically loads JavaScript or CSS files.
 -   **`path(url, state)`**: Manages URL paths and history.
 -   **`prot.at(attr, value)`**: Sets or removes an attribute on an element.
