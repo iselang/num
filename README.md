@@ -45,6 +45,11 @@ app('Name of my NUM');
 </script>
 ```
 
+## Recommendations
+1. Never use `INNER HTML` num is not HTML, plus `innerHtml` is unsafe. use `.set`
+2. Never use HTML default elements. Its because html only works on web. NUM elements is cross platform UI, Pleaee use that only.
+
+
 ## How it works
 
 1. JavaScript’s Three-Phase System
@@ -239,32 +244,32 @@ load('num/sys/swipe.js');
 -   **`move.up(selector)`**: Moves an element up in the DOM.
 -   **`move.down(selector)`**: Moves an element down in the DOM.
 
--   **`element.set`**: Sets the content of an element, handling different input types.
--   **`element.get`**: Gets the content of an element.
--   **`element.put`**: Appends elements or text to an element.
--   **`element.say`**: Sets the text content of an element.
--   **`element.val`**: Gets or sets the value of an element.
--   **`element.at`**: Sets attributes on an element.
--   **`element.rem`**: Removes attributes from an element.
--   **`element.del`**: Removes an element from the DOM.
--   **`element.hide`**: Hides an element.
--   **`element.show`**: Shows an element.
--   **`element.toggle`**: Toggles the visibility of an element.
--   **`element.tap`**: Adds tap event listeners to an element.
--   **`element.ask`**: Adds an input event listener to an element.
--   **`element.do`**: Executes functions with optional delay or loop.
--   **`element.delay`**: Sets a delay for the `do` function.
--   **`element.loop`**: Sets a loop for the `do` function.
--   **`element.text`**: Gets or sets the inner text of an element.
+-   **`element.set=`**: Sets the content of an element, handling different input types.
+-   **`element.get=`**: Gets the content of an element.
+-   **`element.put=`**: Appends elements or text to an element.
+-   **`element.say=`**: Sets the text content of an element.
+-   **`element.val=`**: Gets or sets the value of an element.
+-   **`element.at="Attribute='Value'";`**: Sets attributes on an element.
+-   **`element.rem="Attribute='Value'";`**: Removes attributes from an element.
+-   **`element.del=`**: Removes an element from the DOM.
+-   **`element.hide;`**: Hides an element.
+-   **`element.show;`**: Shows an element.
+-   **`element.toggle;`**: Toggles the visibility of an element.
+-   **`element.tap=`**: Adds tap event listeners to an element.
+-   **`element.ask=`**: Adds an input event listener to an element.
+-   **`element.do=`**: Executes functions with optional delay or loop.
+-   **`element.delay=`**: Sets a delay for the `do` function.
+-   **`element.loop=`**: Sets a loop for the `do` function.
+-   **`element.text=`**: Gets or sets the inner text of an element.
 
 ### App Configuration
 
--   **`app(title)`**: Sets the document title.
--   **`app.cover(imageUrl)`**: Sets the cover image meta tags.
--   **`fav(iconUrl)`**:  Sets the favicon.
--   **`app.key(keywords)`**: Sets the meta keywords.
--   **`app.url(canonicalUrl)`**: Sets the canonical URL.
--   **`app.info(description)`**: Sets the meta description.
+-   **`app(title);`**: Sets the document title.
+-   **`app.cover(imageUrl);`**: Sets the cover image meta tags.
+-   **`fav(iconUrl);`**:  Sets the favicon.
+-   **`app.key(keywords),`**: Sets the meta keywords.
+-   **`app.url(canonicalUrl);`**: Sets the canonical URL.
+-   **`app.info(description);`**: Sets the meta description.
 
 Sample
 ```js
