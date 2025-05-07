@@ -429,6 +429,10 @@ Web Compatibility	100%	97%	100%	100%
 
 Num provides a "simple" API to integrate with your web projects. Use the provided functions and components to build interactive and efficient software.
 
+Ise / NUM
+## Used by/in (projects)
+`Actwu`, `NOW SIGN protoype`, `HanBy`, `selhue.com`, `CDNM`, `sellit by selhue`, `dropBy`, `INSB`, `PallTe`, `Codeen`, `Far`, `LycheLi`, `Aftei`, `FloxUse` and more..
+
 ## License
 
 Num is released under the MIT License. See `LICENSE` for more details.
