@@ -15,11 +15,63 @@
 
 Num is a powerful and lightweight code kit designed to complement like the ISE language. It provides developers with essential tools and components for building efficient, scalable, and high-performance web applications.
 
-A Programming language on fly tha is easy and user friendly. Speed, UX's Good and Dynamic.
+It's programming language that runs on the fly—no installation needed. It's fast, user-friendly, and built with dynamic UX in mind.
 
-This is half open source.
+## NOTE
+- This is half open source.
+- This is a CDN-Based Language.
 
-This is a CDN-Based Language.
+## How it works
+
+1. JavaScript’s Three-Phase System
+
+NUM operates within JavaScript’s existing structure.. the Prototype Phase, the Mainframe Phase, and the Interpretation Phase.
+
+In the Prototype Phase, NUM extends JavaScript’s prototype-based inheritance, adding custom methods to objects and making it easier to manipulate the DOM, handle events, and interact with the system.
+
+During the Mainframe Phase, users interact with core application functionalities like the DOM, conditional logic `if()`, and event-driven programming. NUM simplifies this phase with an easy-to-use API that works directly with the browser’s environment.
+
+In the Interpretation Phase, NUM runs directly in the browser or is interpreted by the system, allowing dynamic execution of code without needing complex dependencies.
+
+2. NUM + C for Native Integrations
+
+NUM extends JavaScript’s capabilities by adding C for WebView functionality, enabling interaction with native components for advanced and performance-sensitive tasks.
+
+Using C for WebView integration, NUM bridges web and native environments, letting developers create native applications with the WebView component. This makes NUM suitable for cross-platform mobile apps and desktop environments that require native functionality.
+
+NUM also provides native control, allowing access to native APIs and deeper interaction with the device's hardware or system-level features. C code runs efficiently, adding a layer of native functionality to the web-based interface.
+
+3. Using [Median.co](https://median.co) for Android Compilation
+
+NUM leverages Median.co for Android application compilation, providing a simple way to convert NUM code into Android-compatible applications.
+
+Median.co compiles NUM code into native Android code, allowing you to deploy NUM-based applications on Android devices without the complexity of traditional Android development. You simply write NUM code, and Median.co handles the compilation.
+
+After the code is compiled, the application runs natively on Android devices, taking full advantage of the platform's power while keeping the development process simple.
+
+4. WebAssembly for Cross-Platform Compilation
+
+NUM uses WebAssembly (Wasm) to compile code for native environments, allowing it to target platforms like Linux, Windows, and embedded systems. This ensures that NUM runs at near-native speed, while still offering the flexibility of a high-level language.
+
+5. Full Cross-Platform Support
+
+NUM simplifies building both web and native applications.
+
+For web applications, NUM runs directly in the browser as a CDN-based language. It uses JavaScript for dynamic execution, manipulating the DOM, handling events, and offering a smooth user experience without complex setups.
+
+For native applications, NUM uses C for WebView and Median.co for Android to compile apps for mobile devices and native desktop environments. This provides the performance of native apps while maintaining the simplicity of web development.
+
+NUM also offers cross-platform compilation, enabling developers to write one codebase and compile it for different environments like web browsers, Android, or desktop using WebAssembly and Median.co.
+
+6. Why Use NUM
+
+NUM combines the best of both worlds.
+
+For web development, NUM lets you write once and run anywhere. Its simple, modular design and CDN-based approach make it easy to develop cross-platform applications that work seamlessly in web environments.
+
+For native applications, NUM lets you compile your code to run natively, offering the performance of native applications without sacrificing ease of use.
+
+It results to being lightweight, fast, and optimized for both web and native environments, delivering smooth and responsive applications.
 
 [Benchmark it.](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fiselang.github.io%2Ftest.html)
 
