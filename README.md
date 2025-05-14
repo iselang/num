@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="https://actwu.github.io/md2.css">
 
 [` NUM JS `](https://github.com/iselang/iselang.github.io/blob/main/num.js) [` Part `](https://github.com/iselang/num/tree/main/part) [` Samples `](sample.md)
-[` Github `](https://github.com/iselang/num/)
+[` Github `](https://github.com/iselang/num/blob/main/README.md)
 
 [` Icon `](https://fontawesome.com/search?o=r&ic=free&s=solid)
 
