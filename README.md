@@ -223,7 +223,7 @@ Layout
 </section>
 </layout>
 ```
-- A flexible UI auto layout.
+- A flexible UI auto layout. This is mobile first.
 
 [Container / Box / Hero](part/cont.md)
 ```html
