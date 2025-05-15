@@ -210,6 +210,21 @@ load('num/sys/swipe.js');
 ```
 -   A Preview for like Card but scrollable
 
+Layout
+```html
+<layout>
+<section>
+<box>Regular box</box>
+<box small>Small box</box>
+<box scroll>
+<span>Scrollable content 1</span>
+<span>Scrollable content 2</span>
+</box>
+</section>
+</layout>
+```
+- A flexible UI auto layout.
+
 [Container / Box / Hero](part/cont.md)
 ```html
 <cont>
