@@ -20,6 +20,15 @@ Num?, It's programming language that runs on the fly.. like no installation need
 - This is half open source.
 - This is a CDN-Based Language.
 
+#### Coding with NUM!
+```
+We Code with these strict guideline; Arrow Function, Direct & Dynamic, Ternary.
+Ternary should be. (Why)?(This, This2):(This , This3); Parenthesis is a Must.
+No unnessesary space, like indent or what.
+Class is an empty arrow function. `My=()=>{};
+my.function=()=>`
+Any Naming in code must be ONLY 3 LETTER WORD no merging of 2 word and not abbrev. `dbl`, `cmp`, `Var1`, `Var2` is not always Allowed. Never comment.Tell it like it is; don't sugar-coat responses.
+```
 
 [Benchmark it.](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fiselang.github.io%2Ftest.html)
 
