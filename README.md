@@ -265,8 +265,8 @@ Acts like a flexible container that adapts direction and wrapping based on scree
 A horizontal container that lays out children side-by-side, with automatic wrapping on smaller screens.
 
 <box>
-A basic block element that holds content, like div in HTML.
-You can style with built-in attributes like bbg, lbg, space, pad, etc.
+A dynamic block element that holds content.
+REMEMBER TO PUT THIS as parent of button!
 
 <say>
 Displays text.
