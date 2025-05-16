@@ -243,6 +243,150 @@ Layout
 ```
 -   A Slide like courosel
 
+NUM UI is just a lightweight declarative language for building reactive UIs. Its like it uses custom HTML look a like tags and attributes that your browser understands via the NUM runtime script.
+
+
+Core Elements
+
+<layout>
+A container that arranges its children automatically.
+Acts like a flexible container that adapts direction and wrapping based on screen size.
+
+<span>
+A horizontal container that lays out children side-by-side, with automatic wrapping on smaller screens.
+
+<box>
+A basic block element that holds content, like div in HTML.
+You can style with built-in attributes like bbg, lbg, space, pad, etc.
+
+<say>
+Displays text.
+Used for static or dynamic text output.
+
+<tap>
+Interactive element, like a button or clickable area.
+Has a do attribute that runs NUM code when tapped/clicked.
+
+
+Attributes and Styling
+
+Colors
+
+- Color Codes
+
+| Token | Color Name         | Example Usage                  |
+|-------|--------------------|--------------------------------|
+| r     | Red                | r4, rbg4, rol4, rsh4           |
+| y     | Yellow             | y4, ybg4, yol4, ysh4           |
+| l     | Light (Blue/Gray)  | l4, lbg4, lol4, lsh4           |
+| g     | Green              | g4, gbg4, gol4, gsh4           |
+| p     | Pink/Purple        | p4, pbg4, pol4, psh4           |
+| v     | Violet             | v4, vbg4, vol4, vsh4           |
+
+---
+
+- Style of the Color
+
+| Suffix | Affects          | Example   | CSS Equivalent                    |
+|--------|------------------|-----------|-----------------------------------|
+| (none) | Text color       | r4        | color: var(--r4)                  |
+| bg     | Background color | rbg4      | background-color: var(--r4)       |
+| ol     | Outline          | rol4      | outline: var(--r4) solid 1px      |
+| sh     | Box shadow       | rsh4      | box-shadow: var(--sh) var(--r4)   |
+| (SVG)  | SVG fill         | svg[r4]   | fill: var(--r4)                   |
+
+Example is a red bg
+```html
+<cont rbg>
+```
+
+`$COLOR + ol + $VER` to make a Outline.
+`$COLOR + sh + $VER` to make a Shadow.
+`$COLOR + bg + $VER` to make a BG.
+
+`pad`
+Padding inside the element.
+
+`space`
+Margin or spacing between siblings.
+
+`gap`
+Space between children inside a container.
+
+`hei`, `wid`
+Height and width specifications.
+
+
+Reactive Behavior
+
+do attribute on <tap> or other elements triggers logic on events (like clicks/taps).
+Example
+
+```html
+<tap do="len++; pick('#lenDisplay').innerText=len">
+  <say>Increase</say>
+</tap>
+```
+
+pick() is like a selector for DOM nodes or variables.
+
+pick('#ps').set = genps(len)
+
+You can declare variables (let len=12) and write inline JS-style functions.
+
+
+Layout Mechanics
+
+Basically <layout> arranges children vertically by default and adapts responsively.
+
+<span> arranges children horizontally but wraps to vertical if needed.
+
+You combine them to create complex UI trees that adapt automatically.
+
+
+```html
+<layout gap="5" pad="5">
+  <say>Header</say>
+  <span gap="3">
+    <box>Item 1</box>
+    <box>Item 2</box>
+    <box>Item 3</box>
+  </span>
+  <tap do="alert('Tapped!')">
+    <say>Click Me</say>
+  </tap>
+</layout>
+```
+
+Putting It All Together
+
+1. Include the NUM runtime
+
+```js 
+<script src="https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js"></script>
+```
+
+2. Use NUM tags inside your body.
+
+3. Always setup your app with app('AppName') in script.
+
+4. Write logic in <script> or inline with do= attributes.
+
+Use <layout> and <span> for automatic responsive container layouts.
+
+Use <box> to hold and style content blocks.
+
+Use <say> for text.
+
+Use <tap do=""> for interactive actions.
+
+Use pick() and variables for dynamic reactive behavior.
+
+
+NUM is all about one-line simplicity and automatic UI adaptation, perfect for fast, reactive web apps with minimal code.
+
+
+---
 
 ### Element Manipulation
 
