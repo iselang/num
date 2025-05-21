@@ -261,22 +261,23 @@ NUM UI is just a lightweight declarative language for building reactive UIs. Its
 
 Core Elements
 
-<layout>
+`<layout>`
+
 A container that arranges its children automatically.
 Acts like a flexible container that adapts direction and wrapping based on screen size.
 
-<span>
+`<span>`
 A horizontal container that lays out children side-by-side, with automatic wrapping on smaller screens.
 
-<box>
+`<box>`
 A dynamic block element that holds content.
 REMEMBER TO PUT THIS as parent of button!
 
-<say>
+`<say>`
 Displays text.
 Used for static or dynamic text output.
 
-<tap>
+`<tap>`
 Interactive element, like a button or clickable area.
 Has a do attribute that runs NUM code when tapped/clicked.
 
@@ -566,6 +567,7 @@ Results:
 - **11/11 test passed**
 
 ![image](https://github.com/user-attachments/assets/d6d11e58-395f-4ade-a95d-5209a21e5604)
+
 - **12-0.7ms** speed compilation and performance rate.
 ![image](https://github.com/user-attachments/assets/950bbda3-3656-48b6-86ad-a4f7f2380d29)
 ![image](https://github.com/user-attachments/assets/e24f0035-6aea-4517-8e45-d2597ef3ef5e)
@@ -584,6 +586,7 @@ Resource Efficiency	100%	100%	70%	86%
 Consistency	100%	100%	90%	75%
 Web Compatibility	100%	97%	100%	100%
 ```
+
 | Test                | NUM  | ISE  | NEXTJS | REACT |
 |---------------------|------|------|--------|-------|
 | Performance Score    | 100% | 100% | 90%    | 87%   |
