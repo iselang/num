@@ -1,3 +1,4 @@
+
 <link rel="preload" as="style" href="https://actwu.github.io/md2.css">
 <link rel="stylesheet" href="https://actwu.github.io/md2.css">
 
@@ -618,6 +619,6 @@ Happy Coding with Num!
 
 
 <script src="https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js"></script>
-<script>=
+<script>
 app('NUM');
 </script>
