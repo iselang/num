@@ -23,6 +23,8 @@ Num?, It's programming language that runs on the fly.. like no installation need
 ## NOTE
 - This is half open source.
 - This is a CDN-Based Language.
+- Comment will effect your app and also possible not run.
+- Indent is not suggested.
 
 #### Coding with NUM!
 ```
