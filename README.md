@@ -554,6 +554,97 @@ type="text/javascript"
 </auth>
 ```
 
+1. Liveblocks (DB/Sesion)
+- This is Official NUM support for clerk
+- This is dark mode.
+  
+Your key/API is located always on your [Liveblock](https://liveblocks.io/dashboard/) project in `Settings` > `API Key`
+
+- `.sync` to sync the element.
+- `.unsync` to unsync the element.
+- `.go` to go to the room.
+
+```html
+<live>
+<script type="module">
+import{createClient,LiveMap}from"https://esm.sh/@liveblocks/client";
+const LIVE={api:"",_client:null,_room:null,_current:"",
+go:async r=>{
+if(!LIVE._client)LIVE._client=createClient({publicApiKey:LIVE.api});
+if(LIVE._room)await LIVE._room.leave();
+const{room}=await LIVE._client.enterRoom(r,{initialStorage:()=>new LiveMap()});
+LIVE._room=room;LIVE._current=r},
+sync: async (elOrSelector) => {
+if (!LIVE._room) return;
+let el, key;
+
+if (typeof elOrSelector === "string") {
+key = elOrSelector;
+el = document.querySelector(elOrSelector);
+if (!el) return; 
+} else {
+el = elOrSelector;
+if (el.id) key = `#${el.id}`;
+else if (el.className) key = el.tagName.toLowerCase() + '.' + el.className.trim().replace(/\s+/g, '.');
+else key = el.tagName.toLowerCase();
+}
+
+const { root } = await LIVE._room.getStorage();
+let isLocal = false;
+
+const update = () => {
+const t = root.get(key) || "";
+if (!isLocal) {
+if ("value" in el) {
+if (el.value !== t) el.value = t;
+}
+if ("textContent" in el) {
+if (el.textContent !== t) el.textContent = t;
+}
+}
+};
+update();
+
+LIVE._room.subscribe(root, update);
+
+const setVal = () => {
+isLocal = true;
+if ("value" in el) root.set(key, el.value);
+else root.set(key, el.textContent);
+setTimeout(() => (isLocal = false), 50);
+};
+el.addEventListener("input", setVal);
+},
+away:async()=>{if(LIVE._room)await LIVE._room.leave();LIVE._room=null;LIVE._current=""}
+};
+onbeforeunload=()=>LIVE.away();window.LIVE=LIVE;window.myserver=LIVE;
+</script>
+<script>
+window.addEventListener('load', async () => {
+await Clerk.load();
+const user = Clerk.user;
+
+myserver.api= " ";
+myserver.go(Clerk.user.id).then(() => {
+myserver.sync(pick("#in"));
+myserver.sync(pick("#in2"));
+}) 
+});
+window.addEventListener("beforeunload", (event) => {
+event.preventDefault(); 
+event.returnValue = "Unloads";
+});
+
+window.addEventListener("unload", () => {
+  if (LIVE._room) {
+    
+    LIVE.away();
+  }
+});
+
+</script>
+</live>
+```
 ## Tested with Google tool
 
 ISE & NUM has been tested by Google, FAR, Other team using [Google's](https://google.com) tools like
