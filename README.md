@@ -539,7 +539,7 @@ Compiling a Portable App for linux this easy.
   
 Your key is located always on your [clerk](https://dashboard.clerk.com/) project in `Settings` > `API Key`
 ```html
- <auth>
+<auth>
 <style>#app *,[data-floating-ui-portal] * {border-radius: 0;}.cl-logoBox {display: flex;justify-content: center;align-content: center;place-content: center;}.cl-card {border-radius: 15px !important;border: var(--b3) solid 1px !important;}#app span, #app a, #app input, #app textarea,#app select,#app .cl-modalContents,#app div, [data-floating-ui-portal] span,[data-floating-ui-portal] span,[data-floating-ui-portal] *:not([data-floating-ui-portal] button),[data-floating-ui-portal] span{opacity: 100% !important;color: var(--m) !important;background-color: var(--b) !important;}#app input {border: var(--b3) 0.85px solid;}#app div, #app .cl-userButtonPopoverCard  {background-color: var(--b) !important;color: var(--m) !important;}.cl-socialButtons img{filter: brightness(0) invert(1);outline: none; border: none;}.cl-navbar {background-color: transparent !important;}.cl-navbar * {color: var(--m) !important;}#app label,#app span, #app p,#app h1,#app h2 {color: var(--m) !important; }.cl-internal-b3fm6y,.cl-userButtonPopoverFooter {display: none !important;visibility: hidden !important;}auth[good] {right: 10px;top: 10px;position: fixed;z-index: 5;}button.cl-avatarImageActionsUpload,button.cl-avatarImageActionsRemove {color: var(--m) !important;background-color: var(--b);border: var(--b3) solid 1px !important;border-radius: 25px;padding: 10px;}.cl-formButtonReset {color: var(--m) !important;}.cl-avatarBox img,.cl-avatarBox {border: 0;width: 38px !important;height: 38px !important;border-radius: 100% !important;}span[aria-busy="true"].cl-internal-1y3i41v {border-radius: 100% !important;}</style>
 <script
 async
@@ -548,7 +548,7 @@ data-clerk-publishable-key="YOUR KEY"
 src="https:// YOUR LINK .clerk.accounts.dev/npm/@clerk/clerk-js@latest/dist/clerk.browser.js"
 type="text/javascript"
 ></script>
-<script>window.addEventListener('load', async function () {await Clerk.load()const auth_done=Clerk.user;const auth_app=pick('#app');(auth_done)?(auth_app.set=`<auth good></auth>`,Clerk.mountUserButton(pick('auth[good]'))):(auth_app.set = `<auth bad></auth>`,Clerk.mountSignIn(pick('auth[bad]')))});</script>
+<script>window.addEventListener('load', async function () {await Clerk.load();const auth_done=Clerk.user;const auth_app=pick('#app');(auth_done)?(auth_app.set=`<auth good></auth>`,Clerk.mountUserButton(pick('auth[good]'))):(auth_app.set = `<auth bad></auth>`,Clerk.mountSignIn(pick('auth[bad]')))});</script>
 </auth>
 ```
 
