@@ -36,7 +36,11 @@ my.function=()=>`
 Any Naming in code must be ONLY 3 LETTER WORD no merging of 2 word and not abbrev. `dbl`, `cmp`, `Var1`, `Var2` is not always Allowed. Never comment.Tell it like it is; don't sugar-coat responses.
 ```
 
+Stable
 [Benchmark it.](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fiselang.github.io%2Ftest.html)
+
+Latest
+[Benchmark it.](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fiselang.github.io%2Ftest%2Fnew%2F)
 
 ## Using it / Installation 
 
