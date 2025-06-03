@@ -255,8 +255,10 @@ Layout
 <slide>Slide 2</slide>
 <slide>Slide 3</slide>
 </slides>
+<scroll></scroll>
+
 ```
--   A Slide like courosel
+-   A Slide is courosel
 
 NUM UI is just a lightweight declarative language for building reactive UIs. Its like it uses custom HTML look a like tags and attributes that your browser understands via the NUM runtime script.
 
