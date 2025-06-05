@@ -13,7 +13,8 @@
 # [Num](https://iselang.github.io/num)
 [` .txt? `](rm.txt)
 
-# Num. A Code Kit by ISE Team.
+# Num. A Code Kit + Language
+Research by [`actwu`](https://github.com/actwu).
 
 ## Introduction
 
