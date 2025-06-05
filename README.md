@@ -538,6 +538,13 @@ Sample
 make.linux();
 ```
 Compiling a Portable App for linux this easy.
+EVERY TIME YOU COMPILE
+
+1. UNZIP
+2. ALLOW The app.linux to run 
+```bash 
+chmod +x app.linux 
+```
 
 ### Plugin (Plug and Use)
 
