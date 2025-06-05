@@ -9,6 +9,17 @@
 
 [` Icon `](https://fontawesome.com/search?o=r&ic=free&s=solid)
 
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/QZIpXjBqJY8?autoplay=1&controls=0&loop=1&mute=1&playlist=QZIpXjBqJY8"
+  title="Num Programming Language Intro"
+  frameborder="0"
+  allow="autoplay; encrypted-media"
+  allowfullscreen
+  referrerpolicy="strict-origin-when-cross-origin">
+</iframe>
+
 
 # [Num](https://iselang.github.io/num)
 [` .txt? `](rm.txt)
