@@ -543,6 +543,10 @@ make.file(pick('#name').get,'text', pick('#data').get);
 ```
 
 ### Compilation / Making
+-  **`make.pwa`**: compilation to PWA manifest. Add this to Your NUM codeb
+```html
+ <link rel="manifest" href="manifest.json">
+```
 -   **`make.PLATFORM`**: compilation to what platform you like `android`, `linux` and `windows`.
 
 Sample
