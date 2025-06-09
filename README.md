@@ -10,7 +10,7 @@
 [` Icon `](https://fontawesome.com/search?o=r&ic=free&s=solid)
 
 <iframe
-  width="560"
+style="width:90%; display:block; margin: 0 auto;"
   height="315"
   src="https://www.youtube.com/embed/QZIpXjBqJY8?autoplay=1&controls=0&loop=1&mute=1&playlist=QZIpXjBqJY8"
   title="Num Programming Language Intro"
