@@ -593,9 +593,20 @@ make.file(pick('#name').get,'text', pick('#data').get);
 -   **`make.PLATFORM`**: compilation to what platform you like `android`, `linux` and `windows`.
 
 Sample
+
+```js
+setTimeout(()=>{make.and()}, 500);
+setTimeout(()=>{AutoUI()}, 1000);
+```
+
+Compiling a Portable App for Android this easy.
+
+Sample
+
 ```js
 make.linux();
 ```
+
 Compiling a Portable App for linux this easy.
 EVERY TIME YOU COMPILE
 
