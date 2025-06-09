@@ -75,6 +75,47 @@ app('Name of my NUM');
 </script>
 ```
 
+# THE PITCH
+
+Imagine a programming language that combines the **speed and power of native code** with the **simplicity and flexibility of the web**. i guess that’s **NUM**.
+
+### Why NUM?
+
+- **Blazing Fast Performance**  
+  Powered by WebAssembly and native C integration, NUM runs at near-native speeds, making your apps lightning quick on any platform.
+
+- **Write Once, Run Anywhere**  
+  Whether it’s a web app running directly in the browser, a native Android app compiled via Median.co, or a desktop app powered by WebAssembly, NUM lets you build it all from a single codebase.
+
+- **Simple, English-like Syntax**  
+  Designed for clarity and speed, NUM’s minimalist syntax lets you focus on what matters is building great software without getting bogged down in boilerplate.
+
+- **Flexible Yet Disciplined**  
+  NUM’s fuzzy syntax empowers rapid prototyping and creative freedom, while optional NASA-inspired coding standards train developers to write clean, maintainable, and reliable code.
+
+- **Native Power at Your Fingertips**  
+  Embed C, Assembly, or WebAssembly directly inside your `.num` or `.html` files to harness the full power of the hardware — no compromises.
+
+- **Battle-Tested and Production Ready**  
+  NUM isn’t just theory.. it’s proven in real-world OS projects and client applications, trusted for performance and reliability.
+
+### Who is NUM for?
+
+- Developers who want **high performance without complexity**.  
+- Teams aiming for **cross-platform reach with minimal overhead**.  
+- Creators who value **both rapid development and disciplined code quality**.  
+- Innovators ready to **bridge web and native worlds seamlessly**.
+
+---
+
+### In short
+
+**NUM is the language that lets you build fast, flexible, and future-proof applications.. basically anywhere, anytime with power and simplicity.**
+
+Ready to level up your development game? Dive into NUM today.
+
+---
+
 ## Recommendations
 1. Never use `INNER HTML` num is not HTML, plus `innerHtml` is unsafe. use `.set`
 2. Never use HTML default elements. Its because html only works on web. NUM elements is cross platform UI, Pleaee use that only.
