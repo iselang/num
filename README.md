@@ -176,6 +176,15 @@ It results to being lightweight, fast, and optimized for both web and native env
 
 ## Features
 
+Terms you need to know
+`new/` or `new@` or `new#` - Latest/Newest Version
+`num/` or `num@` or `num#` - Stable Version
+`ui/` or `ui@` or `ui#` - CSS / UI type
+`js/` or `js@` or `js#` - JS type
+
+```js
+load('js@new/ux');load('ui@new/ui');
+```
 Modules you can load.
 
  - Num UI* (RECOMMENDED)
