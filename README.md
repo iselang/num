@@ -56,6 +56,26 @@ Latest
 
 ## Using it / Installation 
 
+### NEW
+To install Num, use the following template as your base.
+```html
+<!DOCTYPE html>
+<meta ref="convert:num">
+<head>
+<link rel='preload' as="script" href='https://iselang.github.io/num.js'>
+</head>
+<body>
+
+</body>
+
+<script src="https://iselang.github.io/num.js"></script>
+<script>
+load("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css")
+load('num/ux.js');load('num/ui.css');
+app('Name of my NUM');
+</script>
+```
+### STABLE
 To install Num, use the following template as your base.
 ```html
 <!DOCTYPE html>
@@ -74,7 +94,6 @@ load('num/ux.js');load('num/ui.css');
 app('Name of my NUM');
 </script>
 ```
-
 # THE PITCH
 
 Imagine a programming language that combines the **speed and power of native code** with the **simplicity and flexibility of the web**. i guess that’s **NUM**.
