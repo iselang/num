@@ -1,9 +1,16 @@
 
+
 <link rel="preload" as="style" href="https://actwu.github.io/md2.css">
 <link rel="stylesheet" href="https://actwu.github.io/md2.css">
 
 <link rel='preload' as="script" href='https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js'>
 
+Read in terminal
+```bash
+curl https://iselang.github.io/num/txt
+```
+
+---
 [` NUM JS `](https://github.com/iselang/iselang.github.io/blob/main/num.js) [` Part `](https://github.com/iselang/num/tree/main/part) [` Samples `](sample.md)
 [` Github `](https://github.com/iselang/num/blob/main/README.md)
 
@@ -19,7 +26,7 @@ style="width:90%; display:block; margin: 0 auto;"
   allowfullscreen
   referrerpolicy="strict-origin-when-cross-origin">
 </iframe>
-
+---
 
 # [Num](https://iselang.github.io/num)
 [` .txt? `](rm.txt)
@@ -47,6 +54,7 @@ Class is an empty arrow function. `My=()=>{};
 my.function=()=>`
 Any Naming in code must be ONLY 3 LETTER WORD no merging of 2 word and not abbrev. `dbl`, `cmp`, `Var1`, `Var2` is not always Allowed. Never comment.Tell it like it is; don't sugar-coat responses.
 ```
+---
 
 Stable
 [Benchmark it.](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fiselang.github.io%2Ftest.html)
