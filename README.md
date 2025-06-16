@@ -22,7 +22,7 @@ style="width:90%; display:block; margin: 0 auto;"
 
 
 # [Num](https://iselang.github.io/num)
-[` .txt? `](txt)
+[` .txt? `](rm.txt)
 
 # Num. A Code Kit + Language
 Research by [`actwu`](https://github.com/actwu).
