@@ -364,7 +364,12 @@ move(etl, mot): Moves one element into another.
 move.up(selector): Moves an element up in the DOM.
 move.down(selector): Moves an element down in the DOM.
 
-element.set=: Sets the content of an element, handling different input types.
+element.set=: Sets the content of an element, handling different input types. / Update same ui To add new element like how innerHTML but safe use this
+
+const tap = make('part'); 
+tap.set = `<tap do="alert('a')">hello</tap>`; 
+pick('[list]').append(tap);
+
 element.get=: Gets the content of an element.
 element.put=: Appends elements or text to an element.
 element.say=: Sets the text content of an element.
