@@ -859,6 +859,232 @@ For issues and inquiries, reach out via [GitHub Issues](https://github.com/isela
 
 Happy Coding with Num!
 
+---
+
+## NUM FAQ
+
+### 1. What is NUM?
+
+NUM is a lightweight, CDN-based general-purpose programming language and code kit designed for building fast, scalable, and cross-platform web and native applications. It combines a declarative UI system, native code integration, and modular design for efficient development.
+
+---
+
+### 2. Is NUM a general-purpose language?
+
+Yes. NUM supports a wide range of programming tasks including UI development, hardware access, network communication, data storage, and cross-platform compilation, making it suitable for general-purpose application development.
+
+---
+
+### 3. How does NUM work as a CDN-based language?
+
+NUM is delivered via its own dedicated CDN servers, ensuring fast, reliable, and secure delivery of the runtime and modules. The runtime is aggressively cached in the browser after the first load, effectively "installing" NUM in the browser cache for offline use and fast subsequent loads.
+
+---
+
+### 4. Does NUM require internet access every time it runs?
+
+No. After the initial load, NUM is cached in the browser, allowing offline execution without repeated network requests. This caching behavior provides fast load times and reduces dependency on continuous internet access.
+
+---
+
+### 5. What platforms does NUM support?
+
+- Web browsers (runs directly via CDN)  
+- Android apps (compiled via Median.co)  
+- Desktop apps on Linux and Windows (compiled via WebAssembly)  
+- Embedded systems (planned and supported via native code integration)
+
+
+### 6. How fast is NUM?
+
+NUM achieves near-native performance thanks to WebAssembly and native C integration. Benchmarks show 100% scores in performance, compile speed, execution speed, and load speed, outperforming popular frameworks like React and Next.js. Source? Please, Read this docs again, You will find the Test.
+
+### 7. What is the syntax like in NUM?
+
+NUM uses a minimalist, English-like syntax focused on clarity and speed. It encourages arrow functions, ternary expressions with mandatory parentheses, and simple 3-letter variable names as optional guidelines for clean code.
+
+
+### 8. Are the strict coding rules mandatory?
+
+No. The strict rules (3-letter variable names, no comments, no indentation) are recommended best practices to maintain clean and consistent code but are optional. Developers can choose to follow or relax them.
+
+### 9. What UI components does NUM provide?
+
+NUM offers declarative, responsive UI components such as:
+
+- `<layout>`: Flexible container  
+- `<tap>`: Button/interactive element  
+- `<box>`, `<say>`, `<nav>`, `<task>`, `<cards>`, `<slides>`, `<cont>`, `<preview>` and more
+
+These components automatically adapt to screen sizes and support styling via color tokens and attributes.
+
+### 10. How does NUM handle DOM manipulation?
+
+NUM provides APIs like `pick()`, `make()`,  element methods (`.set`, `.get`, `.put`, `.say`, `.val`, `.at`, `.rem`, `.del`, `.hide`, `.show`, `.toggle`) to easily select, create, and manipulate elements dynamically.
+### 11. Can NUM interact with hardware and media?
+
+Yes. NUM supports camera, microphone, and screen feeds, recording, snapshots, and plans for hardware control like servos for Arduino.
+
+### 12. Does NUM support data storage?
+
+NUM integrates IndexedDB with APIs (`bit.init()`, `bit.up()`, `bit.push()`, `bit.get()`) and uses BroadcastChannel for communication between browser tabs/windows.
+
+### 13. How does NUM handle networking?
+
+NUM simplifies HTTP requests with `net.get()` and `net.post()` for easy data fetching and posting.
+
+### 14. Can I compile NUM apps to native platforms?
+
+Yes. NUM supports compilation to:
+
+- Progressive Web Apps (PWA)
+(`make.pwa()`)   
+- Android apps via Median.co (`make.and()`)  
+- Linux and Windows desktop apps via WebAssembly (`make.linux()`, `make.win()`)
+
+
+### 15. What integrations does NUM support?
+
+- **Clerk**: Authentication and user management  
+- **Liveblocks**: Real-time collaboration and multiplayer features  
+- **Median.co**: Android app compilation
+And many more planned to collaborate with.
+
+These are officially supported and integrated for seamless development.
+
+
+### 16. Is NUM secure to use?
+
+Yes. NUM controls its own CDN infrastructure, ensuring trusted, secure delivery. It also follows strict coding and runtime guidelines to minimize security risks.
+
+### 17. How do I install or start using NUM?
+
+Include the NUM runtime script from its CDN in your HTML and load necessary modules:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js"></script>
+<script>
+load('num/ux.js'); load('num/ui.css');
+app('My NUM App');
+</script>
+```
+
+### 18. Can I comment my code in NUM?
+
+Comments are discouraged because they can affect app behavior, but they are not strictly forbidden. Best practice is to write clear, direct code without comments.
+
+
+### 19. How does NUM handle updates?
+
+Using the CDN means you automatically get the latest stable or new versions unless you specify a fixed version. Browser caching ensures smooth updates without disrupting existing apps.
+
+### 20. What are the main advantages of NUM over traditional web stacks?
+
+- Unified language and toolkit for UI, logic, native integration  
+- Near-native performance with WebAssembly and C  
+- Cross-platform deployment from a single codebase  
+- Built-in support for authentication, real-time collaboration, and native compilation  
+- Minimal setup with CDN delivery and caching  
+
+### 21. Is NUM suitable for large-scale projects?
+
+Yes. NUM is battle-tested in real-world OS projects and client applications, with modular design and performance optimizations to support scalable, maintainable codebases
+
+### 22. Where can I get support or report issues?
+
+NUM is open source under MIT License. Support and issues can be reported via its GitHub repository.
+
+### 23. Can I use NUM offline after the first load?
+
+Yes. Once NUM’s runtime and modules are loaded from its dedicated CDN, they are cached in the browser. This allows offline usage without needing to reload from the network on subsequent runs.
+
+
+### 24. How does NUM handle versioning and updates?
+
+NUM’s CDN supports stable and latest versions. You can link to a specific stable version to avoid unexpected changes or use the latest for new features. Browser caching and CDN invalidation ensure smooth updates without breaking apps
+
+### 25. Is NUM suitable for beginners?
+
+NUM’s simple, English-like syntax and declarative UI components make it approachable for beginners. However, some advanced features like native integration and WebAssembly may require intermediate knowledge.
+
+### 26. How does NUM compare to traditional web stacks (HTML/CSS/JS)?
+
+NUM abstracts away repetitive coding in CSS, JS, and native code by providing declarative UI tags, modular APIs, and native performance. It reduces boilerplate and speeds up development while maintaining flexibility.
+
+### 27. Can I embed native C or Assembly code in NUM?
+
+Yes. NUM allows embedding C, Assembly, or WebAssembly directly inside `.num` or `.html` files for performance-critical or hardware-level tasks.
+### 28. How does NUM support real-time collaboration?
+
+NUM integrates Liveblocks, enabling multiplayer editing, presence indicators, notifications, and AI copilots with minimal setup, making real-time collaboration easy to add.
+
+### 29. What authentication options does NUM provide?
+
+NUM officially supports Clerk for authentication, offering secure user sign-in, management, and UI components that integrate seamlessly into NUM apps
+
+### 30. Where can I find learning resources for NUM?
+
+NUM’s documentation, GitHub repositories, and community forums provide tutorials, examples, and support. Because it is half open-source, you can explore source code and contribute. Official docs include usage, API references, and best practices.
+
+### 41. Is NUM related to the esoteric language called "Num"?
+
+No. The esoteric "Num" language is a minimal subset of JavaScript with only the integer 0 and limited operators, mainly experimental. The NUM language you’re asking about is a full-featured, practical, CDN-based general-purpose language designed for real-world app development.
+
+---
+
+### 42. Can NUM handle scientific or numerical computing?
+
+While NUM is optimized for web and native app development, it does not specialize in scientific computing like NumPy or Numba. However, its native C and WebAssembly integration allows embedding high-performance numerical code if needed.
+
+---
+
+### 43. How does NUM compare to languages like Numba or NumPy?
+
+Numba and NumPy are Python-based tools focused on numerical and scientific computing with optimized array operations and GPU acceleration. NUM is a standalone language focused on UI, native integration, and cross-platform apps, not specialized numerical libraries.
+
+---
+
+### 44. Does NUM support file input/output?
+
+Yes. NUM supports file uploads, saving element content as files, and reading/writing files through its APIs and compilation features.
+
+---
+
+### 45. How does NUM manage memory and resources?
+
+NUM is designed to be lightweight and resource-efficient, using modular loading and optimized runtime. It relies on browser and native platform memory management, with no heavy overhead.
+
+---
+
+### 46. Can NUM be used for game development?
+
+NUM’s fast execution, native integration, and event handling make it suitable for simple to moderate game development, especially for web and mobile platforms. Complex 3D or physics-heavy games may require additional native libraries.
+
+---
+
+### 47. How do I handle debugging and error reporting in NUM?
+
+NUM leverages browser developer tools for debugging. Its modular design and declarative UI help isolate issues. Error messages and logs can be accessed via console or custom handlers.
+
+---
+
+### 48. Is NUM compatible with TypeScript or other typed languages?
+
+NUM itself do not support, Because it will waste your development time.
+
+Transpiling to JS again then getting reviewed and so on.
+
+---
+
+### 49. How does NUM handle internationalization (i18n)?
+
+NUM’s declarative UI and text components support dynamic text updates, enabling integration with i18n libraries or custom localization logic.
+
+---
+
+### 50. What is the best way to contribute to NUM?
+
+NUM is open source under WEBOPL License. Contributions can be made via its GitHub repository by submitting issues, feature requests, or pull requests. Community involvement is encouraged.
 
 
 <script src="https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js"></script>
