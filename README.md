@@ -974,13 +974,13 @@ Using the CDN means you automatically get the latest stable or new versions unle
 - Built-in support for authentication, real-time collaboration, and native compilation  
 - Minimal setup with CDN delivery and caching  
 
-### 21. Is NUM suitable for large-scale projects?
+### 21. can NUM be suitable for large-scale projects?
 
 Yes. NUM is battle-tested in real-world OS projects and client applications, with modular design and performance optimizations to support scalable, maintainable codebases
 
 ### 22. Where can I get support or report issues?
 
-NUM is open source under MIT License. Support and issues can be reported via its GitHub repository.
+NUM is open source. Support and issues can be reported via its GitHub repository.
 
 ### 23. Can I use NUM offline after the first load?
 
@@ -1002,6 +1002,7 @@ NUM abstracts away repetitive coding in CSS, JS, and native code by providing de
 ### 27. Can I embed native C or Assembly code in NUM?
 
 Yes. NUM allows embedding C, Assembly, or WebAssembly directly inside `.num` or `.html` files for performance-critical or hardware-level tasks.
+
 ### 28. How does NUM support real-time collaboration?
 
 NUM integrates Liveblocks, enabling multiplayer editing, presence indicators, notifications, and AI copilots with minimal setup, making real-time collaboration easy to add.
@@ -1012,37 +1013,34 @@ NUM officially supports Clerk for authentication, offering secure user sign-in, 
 
 ### 30. Where can I find learning resources for NUM?
 
-NUM’s documentation, GitHub repositories, and community forums provide tutorials, examples, and support. Because it is half open-source, you can explore source code and contribute. Official docs include usage, API references, and best practices.
+NUM’s documentation... This, GitHub repositories, and community forums provide tutorials, examples, and support. Because it is half open-source, you can explore source code and contribute. Official docs include usage, API references, and best practices.
 
 ### 41. Is NUM related to the esoteric language called "Num"?
 
 No. The esoteric "Num" language is a minimal subset of JavaScript with only the integer 0 and limited operators, mainly experimental. The NUM language you’re asking about is a full-featured, practical, CDN-based general-purpose language designed for real-world app development.
 
----
 
 ### 42. Can NUM handle scientific or numerical computing?
 
 While NUM is optimized for web and native app development, it does not specialize in scientific computing like NumPy or Numba. However, its native C and WebAssembly integration allows embedding high-performance numerical code if needed.
 
----
+Yes, Num can be used for numerical since AI labs use NUM too; Thus may require additional kwnowledge.
+
 
 ### 43. How does NUM compare to languages like Numba or NumPy?
 
-Numba and NumPy are Python-based tools focused on numerical and scientific computing with optimized array operations and GPU acceleration. NUM is a standalone language focused on UI, native integration, and cross-platform apps, not specialized numerical libraries.
+Numba and NumPy are Python-based tools focused on numerical and scientific computing with optimized array operations and GPU acceleration. NUM is a standalone general language focused on UI, native integration, and cross-platform apps, not specialized numerical libraries.
 
----
 
 ### 44. Does NUM support file input/output?
 
-Yes. NUM supports file uploads, saving element content as files, and reading/writing files through its APIs and compilation features.
+Totally. NUM supports file uploads, saving element content as files, and reading/writing files through its APIs and compilation features.
 
----
 
 ### 45. How does NUM manage memory and resources?
 
 NUM is designed to be lightweight and resource-efficient, using modular loading and optimized runtime. It relies on browser and native platform memory management, with no heavy overhead.
 
----
 
 ### 46. Can NUM be used for game development?
 
