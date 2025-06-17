@@ -847,18 +847,6 @@ Ise / NUM
 ## Used by/in (projects)
 `Actwu`, `NOW SIGN ASL protoype`, `HanBy`, `selhue.com`, `CDNM`, `covNav`, `sellit by selhue`, `dropBy`, `INSB`, `PallTe`, `Codeen`, `Far`, `LycheLi`, `Aftei`, `FloxUse`, `bio it`, `myURL`, `Again`, `Soiĺ`, `numOS`,`voltOs` and more..
 
-## License
-
-Num is released under the MIT License. See `LICENSE` for more details.
-
-
-
-## Contact & Support
-
-For issues and inquiries, reach out via [GitHub Issues](https://github.com/iselang/num/issues).
-
-Happy Coding with Num!
-
 ---
 
 ## NUM FAQ
@@ -1085,6 +1073,16 @@ NUM’s declarative UI and text components support dynamic text updates, enablin
 ### 50. What is the best way to contribute to NUM?
 
 NUM is open source under WEBOPL License. Contributions can be made via its GitHub repository by submitting issues, feature requests, or pull requests. Community involvement is encouraged.
+
+## License
+
+Num is released under the WEBOPL License now. 
+
+## Contact & Support
+
+For issues and inquiries, reach out via [GitHub Issues](https://github.com/iselang/num/issues).
+
+Happy Coding with Num!
 
 
 <script src="https://cdn.jsdelivr.net/gh/iselang/iselang.github.io@main/num.min.js"></script>
