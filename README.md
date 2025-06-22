@@ -248,12 +248,12 @@ load('num/sys/swipe.js');
 ```
 
 - Google Icons
-```
+```js
 load('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home');
 ```
 
 - FontAwesome (Solid)
-```
+```js
 load('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
 ```
 
