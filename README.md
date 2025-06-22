@@ -247,6 +247,16 @@ load('num/sys/oth.js');
 load('num/sys/swipe.js');
 ```
 
+- Google Icons
+```
+load('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home');
+```
+
+- FontAwesome (Solid)
+```
+load('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+```
+
 -   **Lightweight & Fast** – Optimized for speed and performance.
 -   **ISE Inspo** – Works seamlessly like ISE language.
 -   **Modular Design** – Flexible components for a variety of web applications.
