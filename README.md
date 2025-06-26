@@ -1,5 +1,5 @@
 ![Language: .NUM](https://img.shields.io/badge/language-.NUM-purple)
-*.html* & *.num* works smae
+*.html* & *.num* works same
 
 <link rel="preload" as="style" href="https://actwu.github.io/md2.css">
 <link rel="stylesheet" href="https://actwu.github.io/md2.css">
