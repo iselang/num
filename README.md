@@ -1,6 +1,8 @@
 ![Language: .NUM](https://img.shields.io/badge/language-.NUM-purple)
 *.html* & *.num* works same
 
+> First CDN & WEBASM General Programming Language
+
 <link rel="preload" as="style" href="https://actwu.github.io/md2.css">
 <link rel="stylesheet" href="https://actwu.github.io/md2.css">
 
